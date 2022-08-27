@@ -230,29 +230,60 @@ h6 {
   color: #fff;
 }
 
-.navbar .getstarted,
-.navbar .getstarted:focus {
+.navbar .getstarted-register,
+.navbar .getstarted-register:focus {
   padding: 8px 25px;
-  margin-left: 30px;
+  margin-left: 0px;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  transition: 0.3s;
+  font-size: 14px;
+  font-weight: 600;
+  border: 3px solid rgba(26, 204, 195);
+  width: 95%;
+  
+}
+
+.navbar .getstarted-register:hover{
+  background: rgb(26, 204, 195);
+  color: #fff;
+}
+.navbar .getstarted-register:focus:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+.navbar .getstarted-register:before,
+.navbar li:hover>.getstarted-register:before {
+  visibility: hidden;
+}
+
+.navbar .getstarted-login,
+.navbar .getstarted-login:focus {
+  padding: 8px 25px;
+  margin-left: 0px;
+  text-align: center;
   border-radius: 5px;
   color: #fff;
   transition: 0.3s;
   font-size: 14px;
   font-weight: 600;
-  border: 2px solid rgba(255, 255, 255, 0.5);
+  border: 3px solid rgba(26, 204, 195);
+  width:135%;
 }
-
-.navbar .getstarted:hover,
-.navbar .getstarted:focus:hover {
+.navbar .getstarted-login:hover{
+  background: rgb(26, 204, 195);
+  color: #fff;
+}
+.navbar .getstarted-login:focus:hover {
   color: #fff;
   border-color: #fff;
 }
-
-.navbar .getstarted:before,
-.navbar li:hover>.getstarted:before {
+.navbar .getstarted-login:before,
+.navbar li:hover>.getstarted-login:before {
   visibility: hidden;
 }
-
 .navbar .dropdown ul {
   display: block;
   position: absolute;
