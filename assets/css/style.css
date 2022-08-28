@@ -235,15 +235,14 @@ h6 {
 .navbar .getstarted-register,
 .navbar .getstarted-register:focus {
   padding: 8px 25px;
-  margin-left: 0px;
   border-radius: 5px;
   color: #fff;
-  text-align: center;
+  text-align: left;
   transition: 0.3s;
   font-size: 14px;
   font-weight: 600;
-  border: 3px solid rgba(26, 204, 195);
-  width: 95%;
+  border: 3px solid rgb(255, 255, 255);
+  width: 100%;
   
 }
 
@@ -263,16 +262,15 @@ h6 {
 
 .navbar .getstarted-login,
 .navbar .getstarted-login:focus {
-  padding: 8px 25px;
-  margin-left: 0px;
-  text-align: center;
+  padding: 8px 50px;
+  text-align: left;
   border-radius: 5px;
   color: #fff;
   transition: 0.3s;
   font-size: 14px;
   font-weight: 600;
-  border: 3px solid rgba(26, 204, 195);
-  width:135%;
+  border: 3px solid rgb(255, 255, 255);
+  width:100%;
 }
 .navbar .getstarted-login:hover{
   background: rgb(26, 204, 195);
