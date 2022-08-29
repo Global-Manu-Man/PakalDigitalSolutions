@@ -133,8 +133,9 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(24, 6, 185, 0.8);
   padding: 12px 0;
+  background: linear-gradient(45deg, rgba(6, 6, 6, 0.9) 0%, rgba(5, 5, 5, 0.9) 100%);
+  background-size: cover;
 }
 
 #header .logo {
@@ -190,7 +191,7 @@ h6 {
   justify-content: space-between;
   padding: 0 3px;
   font-family: "Poppins", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.7);
   white-space: nowrap;
@@ -200,7 +201,7 @@ h6 {
 
 .navbar a i,
 .navbar a:focus i {
-  font-size: 12px;
+  font-size: 20px;
   line-height: 0;
   margin-left: 5px;
 }
@@ -234,7 +235,8 @@ h6 {
 
 .navbar .getstarted-register,
 .navbar .getstarted-register:focus {
-  padding: 8px 25px;
+  padding: 8px 30px;
+  margin-left: 0px;
   border-radius: 5px;
   color: #fff;
   text-align: left;
@@ -262,7 +264,8 @@ h6 {
 
 .navbar .getstarted-login,
 .navbar .getstarted-login:focus {
-  padding: 8px 50px;
+  padding: 8px 40px;
+  margin-left: 0px;
   text-align: left;
   border-radius: 5px;
   color: #fff;
@@ -469,7 +472,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
+  background: linear-gradient(45deg, rgba(6, 6, 6, 0.9) 0%, rgba(5, 5, 5, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -603,7 +606,8 @@ section {
 }
 
 .section-bg {
-  background-color: #f9f8ff;
+  background: linear-gradient(45deg, rgba(6, 6, 6, 0.9) 0%, rgba(5, 5, 5, 0.9) 100%);
+  background-size: cover;
 }
 
 .section-title {
@@ -618,6 +622,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
+  color:white;
 }
 
 .section-title h2::after {
@@ -633,6 +638,7 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+  color:white;
 }
 
 /*--------------------------------------------------------------
@@ -640,17 +646,23 @@ section {
 --------------------------------------------------------------*/
 .about {
   padding: 120px 0;
+  background: linear-gradient(45deg, rgba(6, 6, 6, 0.9) 0%, rgba(5, 5, 5, 0.9) 100%);
+  background-size: cover;
 }
 
 .about .content h3 {
   font-weight: 600;
   font-size: 32px;
-  color: #2c4964;
+  color: #fcfdfe;
 }
 
 .about .content ul {
   list-style: none;
   padding: 0;
+  color:white;
+}
+.about .content p{
+  color: white;
 }
 
 .about .content ul li {
@@ -665,6 +677,7 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+  color:white;
 }
 
 .about .content .read-more {
@@ -692,11 +705,13 @@ section {
   top: 12px;
 }
 
+
+
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  background: linear-gradient(90deg, rgba(88, 70, 249, 0.5) 0%, rgba(123, 39, 216, 0.5) 100%), url("../img/counts-bg.png") center center no-repeat;
+  background: linear-gradient(90deg, #212529 0%, #212529 100%), url(../img/counts-bg.png) center center no-repeat;
   padding: 80px 0 60px 0;
 }
 
@@ -979,6 +994,8 @@ section {
   text-align: center;
   border-radius: 50px;
   padding: 2px 15px;
+  background: linear-gradient(45deg, rgba(6, 6, 6, 0.9) 0%, rgba(5, 5, 5, 0.9) 100%);
+    background-size: cover;
 }
 
 .portfolio #portfolio-flters li {
@@ -994,16 +1011,19 @@ section {
   transition: all 0.3s ease-in-out;
   border-radius: 5px;
   font-family: "Poppins", sans-serif;
+  
 }
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
   background: #5846f9;
+  
 }
 
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
+ 
 }
 
 .portfolio .portfolio-wrap {
@@ -1269,16 +1289,18 @@ section {
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq {
-  background: linear-gradient(42deg, #5846f9 0%, #7b27d8 100%);
+  background: linear-gradient(45deg, rgba(6, 6, 6, 0.9) 0%, rgba(5, 5, 5, 0.9) 100%);
+  background-size: cover;
 }
 
 .faq .section-title h2,
 .faq .section-title p {
-  color: #fff;
+  color: white;
+  
 }
 
 .faq .section-title h2::after {
-  background: rgba(255, 255, 255, 0.6);
+  background: white;
 }
 
 .faq .faq-list {
@@ -1554,7 +1576,7 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
-  background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
+  background: linear-gradient(45deg, rgba(6, 6, 6, 0.9) 0%, rgba(5, 5, 5, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
   background-size: cover;
 }
 
