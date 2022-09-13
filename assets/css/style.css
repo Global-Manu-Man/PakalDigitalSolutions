@@ -611,7 +611,7 @@ section {
 }
 
 .section-bg {
-  background: linear-gradient(45deg, rgba(6, 6, 6, 0.9) 0%, rgba(5, 5, 5, 0.9) 100%), url("../img/87073.jpg") center center no-repeat;
+  background: linear-gradient(45deg, rgba(6, 6, 6, 0.9) 0%, rgba(5, 5, 5, 0.9) 100%) center no-repeat;
   background-size: cover;
 }
 
@@ -789,7 +789,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #2c4964;
+  color: white;
   transition: ease-in-out 0.3s;
 }
 
