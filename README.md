@@ -47,7 +47,7 @@ Stopping the Apache module:
 - When you have finished working on your project, you can stop the Apache server from the XAMPP Control Panel by clicking on the "Stop" button next to the Apache module.
 
 
-![Logo](https://locallity-logos.s3.us-west-1.amazonaws.com/640px-XAMPP_Windows_10.png)
+![Logo](https://locallity-logos.s3.us-west-1.amazonaws.com/EN_XAMPP_Control_Panel_2.png)
 
 
 Download PakalDigitalSolutions with github
