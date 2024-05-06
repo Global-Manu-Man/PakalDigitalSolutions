@@ -63,6 +63,15 @@ Download PakalDigitalSolutions with github
 
 ```
 
+    
+## Demo
+
+Web page demo
+
+http://localhost/PakalDigitalSolutions/
+
+
+![Logo](https://locallity-logos.s3.us-west-1.amazonaws.com/Screenshot_11.png)
 
 
     
